@@ -40,6 +40,7 @@ Se construyeron pruebas unitarias basicas tanto al modelo generado como a los AP
 
 
 **Prueba de Listado de clientes (GET):** http://127.0.0.1:8000/api/clients/client/
+
 **Data de prueba:**
 curl --location 'http://127.0.0.1:8000/api/clients/client/' \
 --header 'Accept: application/json' 
