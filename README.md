@@ -11,9 +11,9 @@
 
 Se anexa la evidencias que el proyecto se ejecuta con sus correspondientes contenedores
 
-[![Inmagen compose](Evidencias-Compose.png?raw=true)
+[![Imagen compose](images/Evidencias-Compose.png?raw=true)
 
-Imagen navegador
+[![Imagen swagger](images/Evidencia-Swagger.png?raw=true)
 
 Imagen docker desk
 
