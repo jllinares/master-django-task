@@ -9,12 +9,27 @@
 
 ### Proyecto y Dockerizacion
 
+Se anexa la evidencias que el proyecto se ejecuta con sus correspondientes contenedores
+
+[![](Inmagen compose)](https://github.com/jllinares/master-django-task/blob/main/Evidencias-Compose.png)
+
+Imagen navegador
+
+Imagen docker desk
+
 
 ------------
 
 
 
 ### Pruebas Unitarias
+
+Se construyeron pruebas unitarias basicas tanto al modelo generado como a los APIs expuesto, las clases correspondientes son:
+
+- test_models.py
+- test_client_api.py
+
+imagen de pruebas
 
 ------------
 
