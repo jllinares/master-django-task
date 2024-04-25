@@ -13,14 +13,12 @@ Se anexa la evidencias que el proyecto se ejecuta con sus correspondientes conte
 
 ![Imagen compose](images/Evidencias-Compose.png?raw=true)
 
-![Imagen swagger](images/Evidencia-Swagger.png?raw=true)
-
 ![Imagen docker](images/Evidencia-Docker-Desk.png?raw=true)
+
+![Imagen swagger](images/Evidencia-Swagger.png?raw=true)
 
 
 ------------
-
-
 
 ### Pruebas Unitarias
 
@@ -29,13 +27,11 @@ Se construyeron pruebas unitarias basicas tanto al modelo generado como a los AP
 - test_models.py
 - test_client_api.py
 
-imagen de pruebas
+![Imagen pruebas](images/Evidencias-Pruebas-Unitarias.png?raw=true)
 
 ------------
 
 ### Pruebas Postman
-
-
 
 **Path base del API**: http://127.0.0.1:8000/api/clients/client/
 
@@ -48,7 +44,7 @@ imagen de pruebas
 curl --location 'http://127.0.0.1:8000/api/clients/client/' \
 --header 'Accept: application/json' 
 
-Imagen aca
+![Imagen pruebas](images/Prueba-Lista-Cliente.png?raw=true)
 
 ------------
 **Prueba de creación de cliente (POST):** http://127.0.0.1:8000/api/clients/client/
