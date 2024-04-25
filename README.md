@@ -11,7 +11,7 @@
 
 Se anexa la evidencias que el proyecto se ejecuta con sus correspondientes contenedores
 
-[![](Inmagen compose)](https://github.com/jllinares/master-django-task/blob/main/Evidencias-Compose.png)
+[![Inmagen compose](Evidencias-Compose.png?raw=true)
 
 Imagen navegador
 
