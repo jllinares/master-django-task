@@ -49,6 +49,7 @@ curl --location 'http://127.0.0.1:8000/api/clients/client/' \
 
 ------------
 **Prueba de creación de cliente (POST):** http://127.0.0.1:8000/api/clients/client/
+
 **Data de prueba:**
 curl --location 'http://127.0.0.1:8000/api/clients/client/' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -58,20 +59,22 @@ curl --location 'http://127.0.0.1:8000/api/clients/client/' \
 --data-urlencode 'last_name=Apellido Postman' \
 --data-urlencode 'active=true'
 
-Imagen aca
+![Imagen pruebas](images/Prueba-Crear-Cliente.png?raw=true)
 
 ------------
 
 **Prueba de consulta de cliente por su ID (GET):** http://127.0.0.1:8000/api/clients/client/{id}
+
 **Data de prueba:**
 curl --location 'http://127.0.0.1:8000/api/clients/client/37/' \
 --header 'Accept: application/json' 
 
-Imagen aca
+![Imagen pruebas](images/Prueba-Crear-Cliente-ID.png?raw=true)
 
 ------------
 
 **Prueba de actualizacion total de cliente por su ID (PUT):** http://127.0.0.1:8000/api/clients/client/{id}
+
 **Data de prueba:**
 curl --location --request PUT 'http://127.0.0.1:8000/api/clients/client/37/' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -81,18 +84,19 @@ curl --location --request PUT 'http://127.0.0.1:8000/api/clients/client/37/' \
 --data-urlencode 'last_name=POSTMANT 2' \
 --data-urlencode 'active=false'
 
-Imagen aca
+![Imagen pruebas](images/Prueba-Actualizar-Cliente.png?raw=true)
 
 ------------
 
 **Prueba de actualizacion parcial de cliente por su ID (PATCH):** http://127.0.0.1:8000/api/clients/client/{id}
+
 **Data de prueba:**
 curl --location --request PATCH 'http://127.0.0.1:8000/api/clients/client/37/' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Accept: application/json' \
 --data-urlencode 'first_name=ACTUALIZACION PARCIAL'
 
-Imagen aca
+![Imagen pruebas](images/Prueba-Actualizar-Parcial-Cliente.png?raw=true)
 
 ------------
 
@@ -100,9 +104,7 @@ Imagen aca
 **Data de prueba:**
 curl --location --request DELETE 'http://127.0.0.1:8000/api/clients/client/37/' \
 
-Imagen aca
+![Imagen pruebas](images/Prueba-Borrar-Cliente.png?raw=true)
 
 
 ------------
-
-
